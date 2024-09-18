@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.hidden{
+  display: none;
+}
+
+.utility {
+  width: 100vw;
+  height: 12vh;
+  background-color: #674188;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.priorityColor {
+  height: 70%;
+  width: 30%;
+  background-color: #c8a1e0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  height: 75%;
+  width: 20%;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.black {
+  background-color: black;
+}
+
+.options {
+  height: 50%;
+  width: 10%;
+  background-color: #c8a1e0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.searchBar {
+  height: 50%;
+  width: 20%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 3vh;
+  padding: 1%;
+  padding-left: 2%;
+}
+
+.search {
+  border: none;
+  outline: none;
+}
+
+.SearchBtn {
+  padding: 5px;
+  border: none;
+  border-radius: 20%;
+  background-color: white;
+}
+
+.main{
+    width: 100vw;
+  height: 88vh; 
+  background-color: #F7EFE5;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ticket{
+    height: 35vh;
+    width: 15vw;
+    background-color: #c8a1e0;
+    margin: 1vh;
+}
+
+.color{
+    height: 10%;
+    width: 100%;
+}
+.task{
+    height: 90%;
+    width: 100%;
+}
+
+.taskAdder{
+    height: 30vh;
+    width: 30vw;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+}
+
+.taskPart{
+    height: 70%;
+    width: 100%;
+    background-color: aqua;
+    resize: none;
+    padding: 5%;
+    outline: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px ;
+}
+
+.priorityColorsTextAdder{
+    height: 30%;
+    width: 100%;
+    background-color:#c8a1e0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.border{
+  border : 2px solid white 
+}

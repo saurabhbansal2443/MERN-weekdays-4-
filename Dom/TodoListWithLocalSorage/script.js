@@ -28,8 +28,6 @@ addBtn.addEventListener("click", function () {
 });
 
 function makeTodo() {
-  // create todo on UI
-
   cont.innerHTML = "";
   for (let i = 0; i < task.length; i++) {
     let { text, id } = task[i];
