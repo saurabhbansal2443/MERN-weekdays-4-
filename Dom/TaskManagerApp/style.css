@@ -104,6 +104,7 @@ body{
     width: 15vw;
     background-color: #c8a1e0;
     margin: 1vh;
+    position: relative;
 }
 
 .color{
@@ -113,6 +114,8 @@ body{
 .task{
     height: 90%;
     width: 100%;
+    padding: 5%;
+    word-break: break-all;
 }
 
 .taskAdder{
@@ -122,6 +125,7 @@ body{
     position: absolute;
     top: 20vh;
     left: 35vw;
+    z-index: 10;
 }
 
 .taskPart{
@@ -146,4 +150,10 @@ body{
 
 .border{
   border : 2px solid white 
+}
+
+.editBtn{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
 }
