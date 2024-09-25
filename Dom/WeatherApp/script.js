@@ -34,3 +34,4 @@ function updateUI(data){
     logoEle.src = condition.icon ; 
 
 }   
+
